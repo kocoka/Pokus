@@ -1,0 +1,89 @@
+/* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+.nadpis{
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+body{
+    background-color: rgb(180, 10, 174);
+}
+img{
+    border-radius: 50%;
+    max-width: 120px;
+}
+
+.zviratka {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.zmrd1 {
+    display:flex;
+    border: solid whitesmoke;
+    border-width: 0,1px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(244, 115, 211);
+    border-radius: 15px;
+    width: 450px;
+}
+.Rotas {
+    margin:10px;
+    text-align: center;
+} 
+.zmrd2 {
+    display:flex;
+    border: solid whitesmoke;
+    border-width: 0,1px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(244, 115, 211);
+    border-radius: 15px;
+    width: 450px;
+}
+.koci {
+    margin:10px;
+    text-align: center;
+}
+
+.zmrd3 {
+    display:flex;
+    border: solid whitesmoke;
+    border-width: 0,1px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(244, 115, 211);
+    border-radius: 15px;
+    width: 450px;
+}
+.pista {
+    margin:10px;
+    text-align: center;
+}
+.zmrd4 {
+    display:flex;
+    border: solid whitesmoke;
+    border-width: 0,1px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(244, 115, 211);
+    border-radius: 15px;
+    width: 450px;
+}
+.kakacka {
+    margin:10px;
+    text-align: center;
+}
+h1 {
+    margin:10px;
+    padding: 20px;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+
+
